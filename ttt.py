@@ -66,9 +66,9 @@ def main():
         game.make_move(position)
     draw_board(game.board)
     if game.winner == 'X':
-        print(f"The winner is player X.")
+        print("The winner is player X.")
     elif game.winner == 'O':
-        print(f"The winner is player O.")
+        print("The winner is player O.")
     else:
         print("Nobody won.")
     print("End of game.")
